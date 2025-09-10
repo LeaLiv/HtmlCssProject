@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="./images/logoW2.png" alt="logo">
+            <button class="burger-menu" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </button>
+            <div class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="./pages/about.html">About</a>
+                <a href="./pages/media.html">Media</a>
+                <a href="./pages/contact.html">Contact Us</a>
+                <a href="./pages/faq.html">FAQ</a>
+            </div>
+        </nav>
+
+    </header>
+    <div id="menu">
+        <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/carousel1.jpg" alt="carousel picture 1" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Stunning Landscapes</h5>
+                        <p>Explore breathtaking vistas from around the world.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel2.jpg" alt="carousel picture 2" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Majestic Mountains</h5>
+                        <p>Experience the grandeur of towering peaks and serene valleys.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel3.jpg" alt="carousel picture 3" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Serene Beaches</h5>
+                        <p>Relax on the soft sands and enjoy the soothing sounds of the ocean.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel4.jpg" alt="carousel picture 4" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Vibrant Cities</h5>
+                        <p>Discover the energy and culture of bustling urban landscapes.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel5.jpg" alt="carousel picture 5" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Enchanting Forests</h5>
+                        <p>Wander through lush greenery and connect with nature.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="main-content">
+
+            <a href="./pages/about.html" target="_blank" data-aos="flip-left" data-aos-duration="2000" class="about-link">
+                <div class="info">
+                    <h1>The Art of Photography: Capturing Moments, Crafting Memories</h1>
+                    <p>
+                        Photography is more than just pressing a button; it's an intricate dance between light,
+                        composition,
+                        and
+                        emotion. It's about seeing the world not just as it is, but as it can be transformed through a
+                        lens.
+                        Each click of the shutter freezes a fleeting moment in time, transforming it into a lasting
+                        memory,
+                        a
+                        powerful story, or a breathtaking piece of art. Whether it's the grandeur of a landscape, the
+                        raw
+                        emotion in a portrait, or the vibrant energy of an event, photography allows us to preserve what
+                        matters
+                        most and share our unique perspective with the world. It's a passion, a craft, and a timeless
+                        way to
+                        connect, inspire, and remember.</p>
+                </div>
+            </a>
+            <div class="side-banner" id="side-banner1">
+                <h2>The Power of Light and Shadow</h2>
+                <p>In photography, light is our primary tool and shadow is our ally. Mastering the interplay between them is key to creating images that are not only well-exposed, but also rich with mood and depth. We chase the soft, golden glow of sunrise and the dramatic, elongated shadows of sunset to tell our stories. The direction, quality, and color of light can transform a simple subject into a compelling narrative, revealing textures, highlighting details, and guiding the viewer's eye through the frame. Ultimately, a great photograph is a dialogue between light and its absence, a balance that evokes feeling and leaves a lasting impression.</p>
+            </div>
+            <div class="side-banner" id="side-banner2">
+                <h2>Beyond the Frame: Storytelling with the Lens</h2>
+                <p>Every photograph tells a story, and as photographers, our role is to be the storytellers. We strive to capture not just what something looks like, but what it feels like. Through careful composition, decisive timing, and an eye for emotion, we build narratives one frame at a time. Whether documenting a fleeting glance between two people, the unbridled joy of a celebration, or a quiet moment of reflection, our work aims to create a connection. These visual stories can transcend language and culture, allowing viewers to see the world from a new perspective and feel a shared sense of humanity.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>Created by Lea Livshitz</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./js/header.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
