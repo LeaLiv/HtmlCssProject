@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+input{
+    margin-bottom: 10px !important;
+}
+input , button,textarea,form{
+    border-radius: 5px !important;
+}
+form{
+    background-color: rgba(255, 228, 196, 0.801);
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 95%
+;
+}
+footer{
+    position: fixed !important;
+    bottom: 0;
+}
+button{
+    background-color: #695b4b;
+    color: white;
+    border: none;
+    padding: 10px ;
+
+}
+button:hover{
+    background-color: #a1907e;;
+    
+}
+body{
+    background-image: url("../images/carousel5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+;
+}
+h1{
+    color: white !important;
+}
