@@ -94,9 +94,51 @@ header {
 
 footer {
     background-color: rgba(255, 228, 196, 0.801);
-    ;
     text-align: center;
     padding: 10px 0;
     width: 100%;
     font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.fi-brands-youtube:hover {
+    color: red;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.fi-brands-facebook:hover {
+    color: blue;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.fi-brands-instagram:hover {
+    background: linear-gradient(45deg,
+            #f09433,
+            #e6683c,
+            #dc2743,
+            #cc2366,
+            #bc1888);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+.fi-rs-burger-menu{
+    font-size: 30px;
 }

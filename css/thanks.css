@@ -3,7 +3,6 @@
     width: 700px;
     max-width: 100% !important;
     text-align: center;
-    display: flex;
     
 }
 footer{
@@ -17,8 +16,10 @@ h1{
     padding: 10px;
     color: white !important;
     border-radius: 10px;
+    width: 700px;
+    max-width: 90%;
+    margin: auto;
     
-;
 }
 body{
     background-image: url("../images/carousel5.jpg");
